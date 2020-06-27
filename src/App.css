@@ -1,3 +1,17 @@
+.link-button:hover,
+.link-button:focus {
+text-decoration: none;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
 img { max-width: 100%; }
 img:not(.tns-lazy-img), .lazyload img { height: auto; }
 .autoWidth img { max-width: none; }
@@ -8,12 +22,15 @@ img:not(.tns-lazy-img), .lazyload img { height: auto; }
   color: #fff;
   text-align: center;
 }
-.img a {
-  display: block;
-  padding: 22% 0;
-  color: inherit;
-  text-decoration: none;
+.img button {
+    display: block;
+    padding: 22% 0;
+    color: inherit;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 0.2em;
 }
+
 
 .img-1 { background: #D6D65B; background: hsl(60, 60%, 60%); }
 .img-2 { background: #5BD6AD; background: hsl(160, 60%, 60%); }

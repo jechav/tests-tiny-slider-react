@@ -1,66 +1,64 @@
 import React, { memo } from 'react';
-// import PropTypes from 'prop-types'
 import TinySlider from 'tiny-slider-react';
-
 
 function Basic({ settings, ...props }) {
   return (
     <TinySlider settings={settings} {...props}>
       <div className="item">
         <div className="img img-1">
-          <a href="">0</a>
+          <button type="button" className="link-button">
+            0
+          </button>
         </div>
-        <p>
-          Sunt dignissimos distinctio, veniam, tenetur aspernatur nulla!
-        </p>
+        <p>Sunt dignissimos distinctio, veniam, tenetur aspernatur nulla!</p>
       </div>
       <div className="item">
         <div className="img img-2">
-          <a href="">1</a>
+          <button type="button" className="link-button">
+            1
+          </button>
         </div>
-        <p>
-          Corrupti, libero minima nihil expedita officiis? Quo.
-        </p>
+        <p>Corrupti, libero minima nihil expedita officiis? Quo.</p>
       </div>
       <div className="item">
         <div className="img img-3">
-          <a href="">2</a>
+          <button type="button" className="link-button">
+            2
+          </button>
         </div>
-        <p>
-          Alias rem, ab impedit recusandae repellat tempore.
-        </p>
+        <p>Alias rem, ab impedit recusandae repellat tempore.</p>
       </div>
       <div className="item">
         <div className="img img-4">
-          <a href="">3</a>
+          <button type="button" className="link-button">
+            3
+          </button>
         </div>
-        <p>
-          Nisi inventore quo delectus perspiciatis voluptatibus, quae.
-        </p>
+        <p>Nisi inventore quo delectus perspiciatis voluptatibus, quae.</p>
       </div>
       <div className="item">
         <div className="img img-5">
-          <a href="">4</a>
+          <button type="button" className="link-button">
+            4
+          </button>
         </div>
-        <p>
-          Nisi harum earum consectetur laudantium iusto, laboriosam.
-        </p>
+        <p>Nisi harum earum consectetur laudantium iusto, laboriosam.</p>
       </div>
       <div className="item">
         <div className="img img-6">
-          <a href="">5</a>
+          <button type="button" className="link-button">
+            5
+          </button>
         </div>
-        <p>
-          Dolores blanditiis neque, quis vitae? Reprehenderit, aliquam.
-        </p>
+        <p>Dolores blanditiis neque, quis vitae? Reprehenderit, aliquam.</p>
       </div>
       <div className="item">
         <div className="img img-7">
-          <a href="">6</a>
+          <button type="button" className="link-button">
+            6
+          </button>
         </div>
-        <p>
-          Omnis dolorum eum blanditiis, ratione voluptates quod.
-        </p>
+        <p>Omnis dolorum eum blanditiis, ratione voluptates quod.</p>
       </div>
     </TinySlider>
   );
