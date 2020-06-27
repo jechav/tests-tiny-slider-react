@@ -10,7 +10,6 @@ function App() {
       <header className="App-header">
         <h2>Tests Tiny Slider React</h2>
       </header>
-      { /*
       <div className="demo-list">
         <h3>Basic</h3>
         <Basic
@@ -72,7 +71,6 @@ function App() {
           className="carousel"
         />
       </div>
-        */ }
       <div className="demo-list">
         <h3>Rebuild</h3>
         <Rebuild
