@@ -1,6 +1,7 @@
 import React from 'react';
 import Basic from './demos/Basic';
 import Images from './demos/Images';
+import Rebuild from './demos/Rebuild';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         <h2>Tests Tiny Slider React</h2>
       </header>
+      { /*
       <div className="demo-list">
         <h3>Basic</h3>
         <Basic
@@ -65,6 +67,19 @@ function App() {
             items: 2,
             axis: 'vertical',
             swipeAngle: false,
+            speed: 400,
+          }}
+          className="carousel"
+        />
+      </div>
+        */ }
+      <div className="demo-list">
+        <h3>Rebuild</h3>
+        <Rebuild
+          settings={{
+            items: 2,
+            lazyload: true,
+            mouseDrag: true,
             speed: 400,
           }}
           className="carousel"
