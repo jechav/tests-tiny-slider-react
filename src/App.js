@@ -1,7 +1,7 @@
 import React from 'react';
 import Basic from './demos/Basic';
 import Images from './demos/Images';
-import './app.css';
+import './App.css';
 
 function App() {
   return (
