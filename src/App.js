@@ -2,6 +2,7 @@ import React from 'react';
 import Basic from './demos/Basic';
 import Images from './demos/Images';
 import Rebuild from './demos/Rebuild';
+import ImagesLazy from './demos/ImagesLazy';
 import './App.css';
 
 function App() {
@@ -79,6 +80,23 @@ function App() {
             lazyload: true,
             mouseDrag: true,
             speed: 400,
+          }}
+          className="carousel"
+        />
+      </div>
+      <div className="demo-list">
+        <h3>LazyLoad</h3>
+        <ImagesLazy
+          settings={{
+            lazyload: true,
+            lazyloadSelector: '.tns-lazy-img',
+            nav: true,
+            items: 2,
+            mouseDrag: true,
+            autoplay: false,
+            loop: false,
+            touch: true,
+            controls: false,
           }}
           className="carousel"
         />
