@@ -1,9 +1,10 @@
-import React from 'react';
-import Basic from './demos/Basic';
-import Images from './demos/Images';
-import Rebuild from './demos/Rebuild';
-import ImagesLazy from './demos/ImagesLazy';
-import './App.css';
+import React from "react";
+import Basic from "./demos/Basic";
+import Images from "./demos/Images";
+import Rebuild from "./demos/Rebuild";
+import ImagesLazy from "./demos/ImagesLazy";
+import "tiny-slider/dist/tiny-slider.css";
+import "./App.css";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Basic
           settings={{
             items: 3,
-            slideBy: 'page',
+            slideBy: "page",
             mouseDrag: true,
             swipeAngle: false,
             speed: 400,
@@ -30,13 +31,13 @@ function App() {
           settings={{
             loop: false,
             responsive: {
-              '450': {
+              450: {
                 items: 2,
               },
-              '600': {
+              600: {
                 items: 3,
               },
-              '800': {
+              800: {
                 items: 5,
               },
             },
@@ -65,7 +66,7 @@ function App() {
         <Basic
           settings={{
             items: 2,
-            axis: 'vertical',
+            axis: "vertical",
             swipeAngle: false,
             speed: 400,
           }}
@@ -89,7 +90,7 @@ function App() {
         <ImagesLazy
           settings={{
             lazyload: true,
-            lazyloadSelector: '.tns-lazy-img',
+            lazyloadSelector: ".tns-lazy-img",
             nav: true,
             items: 2,
             mouseDrag: true,
