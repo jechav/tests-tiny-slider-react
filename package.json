@@ -6,7 +6,7 @@
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
-        "tiny-slider-react": "^0.5.4"
+        "tiny-slider-react": "^0.5.5"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -18,11 +18,7 @@
         "extends": "react-app"
     },
     "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
+        "production": [">0.2%", "not dead", "not op_mini all"],
         "development": [
             "last 1 chrome version",
             "last 1 firefox version",
