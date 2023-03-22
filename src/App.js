@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>Tests Tiny Slider React</h2>
+        <span>tiny-slider-react: ^0.5.7</span>
       </header>
       <div className="demo-list">
         <h3>Basic</h3>
