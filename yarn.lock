@@ -9791,10 +9791,10 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tiny-slider-react@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/tiny-slider-react/-/tiny-slider-react-0.5.5.tgz#42d4eed74200bfab469aea180acae82f705c7dc1"
-  integrity sha512-cXgcdsyQbM1UrWQTU6CCb00k/vLrBACWfeBpy9M0aUXsPXtAlDdNmiJLR+en38KviPuiNcGx3i6wweMBCR9kRg==
+tiny-slider-react@^0.5.7:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/tiny-slider-react/-/tiny-slider-react-0.5.7.tgz#6d8c7dd9e48413ec7457091f5ea821e83bebc2ca"
+  integrity sha512-YTzPlyY9yI/v+c3h8BQ7dTHmCDtK8ghbaGD20FNqEPAySk1AR0aTaW6Iqhup5U7gJiWiUsfCHO31q8xEeuGsRQ==
   dependencies:
     tiny-slider "^2.9.3"
 
